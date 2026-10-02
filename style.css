@@ -1,0 +1,34 @@
+html, body {
+  margin: 0;
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* background-image: url("assets/background.jpg");
+  background-size: 100% 100%; */
+  background-color: #000000;
+  background-repeat: no-repeat;
+}
+
+#game {
+  display: flex;
+  justify-content: center;
+  border: 3px solid white;
+}
+
+h1 {
+  font-family: 'Press Start 2P', cursive;
+  font-size: 25px;
+  color: #ffffff;
+}
+
+p {
+  font-family: 'Press Start 2P', cursive;
+  font-size: 11px;
+  color: #ffffff;
+}
